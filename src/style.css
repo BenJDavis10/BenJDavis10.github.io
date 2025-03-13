@@ -18,6 +18,7 @@ h3 {
 }
 
 p {
+  margin: 0 0 1em 0;
   text-align: justify;
   text-indent: 2em;
   font-family: "sans-serif";
@@ -83,6 +84,7 @@ div.bio_container {
 
   display: flex;
   flex-flow: row wrap-reverse;
+  gap: 30px;
 }
 
 div.bio {
@@ -93,7 +95,7 @@ div.bio {
 }
 
 div.portrait {
-  padding: 10px 30px 0 30px;
+  padding: 10px 0 0 0;
   width: 0;
   flex-grow: 1;
   min-width: 200px;
