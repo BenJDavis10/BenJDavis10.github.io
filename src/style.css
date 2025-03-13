@@ -103,7 +103,7 @@ div.portrait {
   flex-grow: 1;
   min-width: 200px;
 
-  margin: auto;
+  margin: 0 auto;
 }
 
 img.portrait {
