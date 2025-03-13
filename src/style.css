@@ -85,6 +85,8 @@ div.bio_container {
   display: flex;
   flex-flow: row wrap-reverse;
   gap: 30px;
+
+  text-align: center;
 }
 
 div.bio {
@@ -97,14 +99,18 @@ div.bio {
 div.portrait {
   padding: 10px 0 0 0;
   width: 0;
+  max-width: 300px;
   flex-grow: 1;
   min-width: 200px;
+
+  margin: auto;
 }
 
 img.portrait {
   border-radius: 10px;
   height: 90%;
   width: 100%;
+  max-width: 300px;
   object-fit: cover;
 }
 
